@@ -1,49 +1,68 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>online artisan shopping </title> 
-    <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
 <body>
-    <h1 style="background-color:whitesmoke; color:darkred;"> <i>Arful wares</i> </h1>
-  <hr>
+ 
 <ul>
-  <li><a class="active" href="index.html">Home</a></li>
+  <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
 </ul>
-<p1>
-<button onclick="window.location.href='contact.html';">
-  contact 
-</button>
-
-    <li><a class="active" href="index.html">Home</a></li>
-
-    <li><a href="videos.html">Sell art</a></li>
-    <li><a href="ifram.html">Buy art! </a></li>
-    <li><a href="page4.html">about us and terms & conditions</a></li>
+ <h1 style="background-color:whitesmoke; color:darkred;"> <i>Arful wares</i> </h1>
   <hr>
+  </p1>
+  <p style="background-color:whitesmoke; color:darkred;">
+  this is a website where you can buy and sell art and art-related items only </p>
+  </body>
 
-</p1>
-<p style="background-color:whitesmoke; color:darkred;">
-this is a website where you can buy and sell art and art-related items only </p>
+    <p>example of how to add a link</p>
+
+    <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+    <p>example of how to add a button</p>
+
+    <button onclick="window.location.href='https://google.com';">
+      google
+    </button>
+    <p>example of how to direct to another webpage using a button</p>
+
+    <button onclick="window.location.href='contact.html';">
+      contact us page
 </body>
-
-  <p>example of how to add a link</p>
-
-  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
-  <p>example of how to add a button</p>
-
-  <button onclick="window.location.href='https://google.com';">
-    google
-  </button>
-  <p>example of how to direct to another webpage using a button</p>
-
-  <button onclick="window.location.href='contact.html';">
-    contact us page
-  </button>
 </html>
-
-
 
